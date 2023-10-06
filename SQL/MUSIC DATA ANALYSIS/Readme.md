@@ -1,24 +1,34 @@
-# Big Mart Sales Analysis
+# SQL Music Store Analysis
 
-## Overview
-This project focuses on the analysis of Big Mart sales data using SQL queries. By leveraging SQL, we can efficiently manage and manipulate data, enabling us to gain valuable insights and make data-driven decisions. The dataset provides information about various aspects of products and their sales in Big Mart stores.
+This repository contains SQL queries that analyze a music store database. The analysis covers three levels of difficulty: Easy, Moderate, and Advanced. Each query extracts specific insights from the database.
 
-## Data Description
-Here's an overview of the key attributes in the dataset:
+## Datasets Used
 
-1. **Item_Identifier**: Unique product ID.
-2. **Item_Weight**: The weight of the product.
-3. **Item_Fat_Content**: Indicates whether the product is labeled as "Low Fat" or not.
-4. **Item_Visibility**: The percentage of the total display area allocated to the particular product in a store.
-5. **Item_Type**: The category to which the product belongs.
-6. **Item_MRP**: The Maximum Retail Price (list price) of the product.
-7. **Outlet_Identifier**: A unique identifier for each store.
-8. **Outlet_Establishment_Year**: The year in which the store was established.
-9. **Outlet_Size**: The size of the store in terms of ground area covered.
-10. **Outlet_Location_Type**: The type of city in which the store is located.
-11. **Outlet_Type**: Indicates whether the outlet is a grocery store or some type of supermarket.
-12. **Item_Outlet_Sales**: Sales of the product in a particular store, which serves as the outcome variable to be predicted.
+1. **Employee Data**: Contains information about employees, including job titles and levels.
+2. **Invoice Data**: Stores information about customer invoices, including billing details and total amounts.
+3. **Customer Data**: Provides information about customers, including names and country.
+4. **Track Data**: Contains details about music tracks, including genre and duration.
+5. **Album Data**: Provides information about music albums, including artist IDs.
+6. **Artist Data**: Contains artist names and IDs.
+7. **Genre Data**: Stores music genre names and IDs.
 
-## Analysis and Queries
-To extract meaningful information from the dataset, various SQL queries have been executed. These queries cover a wide range of analyses, including data exploration and statistical calculations. Each query serves a specific purpose, from basic data retrieval to advanced insights.
+## Summary of the Analysis Process
 
+### Easy Queries
+1. Identified the senior-most employee based on job titles.
+2. Determined countries with the most invoices.
+3. Retrieved the top 3 values of total invoices.
+4. Found the city with the best customers for a promotional music festival.
+5. Identified the best customer based on total spending.
+
+### Moderate Queries
+1. Retrieved email, first name, last name, and genre of all rock music listeners.
+2. Listed the top 10 rock bands by total track count.
+3. Retrieved tracks longer than the average song length.
+
+### Advanced Queries
+1. Calculated the amount spent by each customer on artists and returned customer names, artist names, and total spent.
+2. Determined the most popular music genre for each country, considering the genre with the highest number of purchases.
+3. Identified the customers who spent the most on music for each country, returning the country, top customer, and amount spent.
+
+Feel free to explore these queries in your SQL environment to gain insights from the music store database.
