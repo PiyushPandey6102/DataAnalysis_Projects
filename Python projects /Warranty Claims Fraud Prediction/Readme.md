@@ -11,12 +11,12 @@ The aim of this project is to analyze the warranty claims based on their region,
 |Consumer_profile| Consumer profile Business/Personal|
 |Product_category| Product category Household/Entertainment|
 |Product_type| Product type AC/TV|
-|AC_1001_Issue| 1 0- No issue / No componenent, 1- repair, 2-replacement|
-|AC_1002_Issue| 1 0- No issue / No componenent, 1- repair, 2-replacement|
-|AC_1003_Issue| 1 0- No issue / No componenent, 1- repair, 2-replacement|
-|TV_2001_Issue| 1 0- No issue / No componenent, 1- repair, 2-replacement|
-|TV_2002_Issue| 1 0- No issue / No componenent, 1- repair, 2-replacement|
-|TV_2003_Issue| 1 0- No issue / No componenent, 1- repair, 2-replacement|
+|AC_1001_Issue| 1 0- No issue / No component, 1- repair, 2-replacement|
+|AC_1002_Issue| 1 0- No issue / No component, 1- repair, 2-replacement|
+|AC_1003_Issue| 1 0- No issue / No component, 1- repair, 2-replacement|
+|TV_2001_Issue| 1 0- No issue / No component, 1- repair, 2-replacement|
+|TV_2002_Issue| 1 0- No issue / No component, 1- repair, 2-replacement|
+|TV_2003_Issue| 1 0- No issue / No component, 1- repair, 2-replacement|
 |Claim_Value| Claim value in INR|
 |Service_Center| Service center code|
 |Product_Age| Product age in days|
